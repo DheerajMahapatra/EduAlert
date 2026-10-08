@@ -1,0 +1,17 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.2
+xgboost>=2.0
+mlxtend>=0.23
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18
+streamlit>=1.50
+joblib>=1.3
+reportlab>=4.0
+pillow>=10.0
+# development / notebooks
+pytest>=7.0
+nbformat>=5.9
+ipykernel>=6.0
+# optional experiment tracking:  pip install mlflow   then   python run_pipeline.py --mlflow
