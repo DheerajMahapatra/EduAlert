@@ -1,0 +1,83 @@
+{
+  "classes": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "features": [
+    "Age",
+    "Semester",
+    "Previous_GPA",
+    "Attendance_Percentage",
+    "Assignment_Avg",
+    "Quiz_Avg",
+    "Midterm_Score",
+    "Practical_Score",
+    "Study_Hours",
+    "Classes_Missed",
+    "Assignments_Missed",
+    "Late_Submissions",
+    "Participation_Score",
+    "Previous_Backlogs",
+    "Assessment_Avg",
+    "Attendance_Status",
+    "Engagement_Score",
+    "Academic_Performance_Index",
+    "Gender",
+    "Department"
+  ],
+  "rf_best_params": {
+    "max_depth": 12,
+    "min_samples_leaf": 3,
+    "n_estimators": 200
+  },
+  "rf_cv_f1_macro": 0.7552,
+  "n_train": 4800,
+  "n_test": 1200,
+  "metrics": [
+    {
+      "Model": "Logistic Regression (baseline)",
+      "Accuracy": 0.7558,
+      "Precision (macro)": 0.7239,
+      "Recall (macro)": 0.7509,
+      "F1 (macro)": 0.7344,
+      "High-risk Precision": 0.6721,
+      "High-risk Recall": 0.8098,
+      "High-risk F1": 0.7345,
+      "ROC-AUC (OvR)": 0.9082
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.735,
+      "Precision (macro)": 0.7116,
+      "Recall (macro)": 0.73,
+      "F1 (macro)": 0.7171,
+      "High-risk Precision": 0.6724,
+      "High-risk Recall": 0.761,
+      "High-risk F1": 0.714,
+      "ROC-AUC (OvR)": 0.8914
+    },
+    {
+      "Model": "Random Forest (primary)",
+      "Accuracy": 0.7633,
+      "Precision (macro)": 0.741,
+      "Recall (macro)": 0.7448,
+      "F1 (macro)": 0.7424,
+      "High-risk Precision": 0.7391,
+      "High-risk Recall": 0.7463,
+      "High-risk F1": 0.7427,
+      "ROC-AUC (OvR)": 0.911
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.75,
+      "Precision (macro)": 0.7271,
+      "Recall (macro)": 0.7385,
+      "F1 (macro)": 0.7315,
+      "High-risk Precision": 0.7156,
+      "High-risk Recall": 0.761,
+      "High-risk F1": 0.7376,
+      "ROC-AUC (OvR)": 0.9056
+    }
+  ]
+}
