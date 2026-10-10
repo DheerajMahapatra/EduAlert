@@ -1,0 +1,5 @@
+Model,Accuracy,Precision (macro),Recall (macro),F1 (macro),High-risk Precision,High-risk Recall,High-risk F1,ROC-AUC (OvR)
+Logistic Regression (baseline),0.7558,0.7239,0.7509,0.7344,0.6721,0.8098,0.7345,0.9082
+Decision Tree,0.735,0.7116,0.73,0.7171,0.6724,0.761,0.714,0.8914
+Random Forest (primary),0.7633,0.741,0.7448,0.7424,0.7391,0.7463,0.7427,0.911
+XGBoost,0.75,0.7271,0.7385,0.7315,0.7156,0.761,0.7376,0.9056

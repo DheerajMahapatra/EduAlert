@@ -1,0 +1,26 @@
+antecedents,consequents,support,confidence,lift
+Low assessment (<50) + Low attendance (<65%) + Low previous GPA (<5.5),Risk = High,0.046,0.958,5.62
+Low attendance (<65%) + Low previous GPA (<5.5) + Low study hours (<2h),Risk = High,0.04,0.949,5.566
+Has backlogs + Low attendance (<65%) + Low previous GPA (<5.5),Risk = High,0.041,0.947,5.552
+Low attendance (<65%) + Low participation (<45) + Low previous GPA (<5.5),Risk = High,0.034,0.945,5.542
+Has backlogs + Low assessment (<50) + Low attendance (<65%),Risk = High,0.046,0.942,5.525
+Low assessment (<50) + Low attendance (<65%) + Low study hours (<2h),Risk = High,0.049,0.933,5.474
+Low assessment (<50) + Low previous GPA (<5.5) + Low study hours (<2h),Risk = High,0.046,0.93,5.455
+Low participation (<45) + Low previous GPA (<5.5) + Low study hours (<2h),Risk = High,0.034,0.928,5.44
+Low assessment (<50) + Low participation (<45) + Low previous GPA (<5.5),Risk = High,0.039,0.925,5.425
+Has backlogs + Low assessment (<50) + Low participation (<45),Risk = High,0.039,0.925,5.425
+Has backlogs + Low assessment (<50) + Low study hours (<2h),Risk = High,0.047,0.918,5.386
+Has backlogs + Low participation (<45) + Low previous GPA (<5.5),Risk = High,0.036,0.915,5.366
+Low assessment (<50) + Low participation (<45) + Low study hours (<2h),Risk = High,0.04,0.913,5.354
+Has backlogs + Low previous GPA (<5.5) + Low study hours (<2h),Risk = High,0.042,0.913,5.353
+Low attendance (<65%) + Low previous GPA (<5.5),Risk = High,0.053,0.912,5.347
+Low assessment (<50) + Low attendance (<65%),Risk = High,0.063,0.908,5.327
+Low assessment (<50) + Low attendance (<65%) + Low participation (<45),Risk = High,0.04,0.906,5.316
+Has backlogs + Low assessment (<50) + Low previous GPA (<5.5),Risk = High,0.055,0.906,5.314
+Low previous GPA (<5.5) + Low study hours (<2h),Risk = High,0.054,0.888,5.21
+Low assessment (<50) + Low study hours (<2h),Risk = High,0.064,0.885,5.188
+Low assessment (<50) + Low previous GPA (<5.5),Risk = High,0.07,0.882,5.172
+Low participation (<45) + Low previous GPA (<5.5),Risk = High,0.046,0.877,5.141
+Low assessment (<50) + Low participation (<45),Risk = High,0.052,0.875,5.132
+Has backlogs + Low assessment (<50),Risk = High,0.07,0.865,5.073
+Low assessment (<50),Risk = High,0.096,0.824,4.833
